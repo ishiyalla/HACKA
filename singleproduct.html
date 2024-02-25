@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>Single products</title>
+<link rel="stylesheet" href="ki.css">
+</head>
+<body>
+
+<!--------Single product----------->
+<div class="small-container single-product">
+<div class="row">
+<div class="col-2">
+<img src="C:\Users\ISHITHA\OneDrive\Desktop\pot.jpg"  width="100%" id="productImg">
+
+<div class="small-img-row">
+<div class="small-img-col">
+<img src="C:\Users\ISHITHA\OneDrive\Desktop\pot2.jpg" width="100%" class="small-img">
+</div>
+
+<div class="small-img-col">
+<img src="C:\Users\ISHITHA\OneDrive\Desktop\pot3.jpg" width="100%" class="small-img">
+</div>
+<div class="small-img-col">
+<img src="C:\Users\ISHITHA\OneDrive\Desktop\pot4.jpg" width="100%" class="small-img">
+</div>
+</div>
+</div>
+
+<div class="col-2">
+<p>pot</p>
+<h1>Clay Pot</h1>
+<h4>&#8377;499.00</h4>
+
+<input type="number" value="1">
+<a href="" class="btn">BUY NOW</a>
+<h3>Product Details</h3>
+<p>Clay pots allow foods to be cooked with moist heat, both from the juices of the foods as they cook as well as moisture added to the porous clay
+</p>
+</div>
+
+</div>
+
+</div>
+<!-------------js code---------->
+<script>
+var productImg=document.getElementById("productImg");
+var smallImg=document.getElementByClassName("small-img");
+SmallImg[0].onclick= function(){
+productImg.src= SmallImg[0].src;
+}
+SmallImg[1].onclick= function(){
+productImg.src= SmallImg[1].src;
+}
+SmallImg[2].onclick= function(){
+productImg.src= SmallImg[2].src;
+}
+</body>
+</html>

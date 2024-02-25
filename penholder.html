@@ -1,0 +1,52 @@
+
+<html>
+<head>
+<title>Single products</title>
+<link rel="stylesheet" href="ki.css">
+</head>
+<body>
+
+<!--------Single product----------->
+<div class="small-container single-product">
+<div class="row">
+<div class="col-2">
+<img src="C:\Users\ISHITHA\OneDrive\Desktop\penholder.jpg"  width="100%" id="productImg">
+
+<div class="small-img-row">
+<div class="small-img-col">
+<img src="C:\Users\ISHITHA\OneDrive\Desktop\penhol2.jpg" width="100%" class="small-img">
+</div>
+
+</div>
+</div>
+
+<div class="col-2">
+<p>pot</p>
+<h1>pen holder</h1>
+<h4>&#8377;99.00</h4>
+
+<input type="number" value="1">
+<a href="payment.html" class="btn">Buy Now</a>
+<h3>Product Details</h3>
+<p>Wooden Pen Holder:A wooden pen stand in the shape of a conventional house with three parallel lines on the top. The stand can be used to organise stationery like pens, pencils, paint brushes on a study table or on a workstation. It can also be kept on a dining table filled with tissues and crockery.
+</p>
+</div>
+
+</div>
+
+</div>
+<!-------------js code---------->
+<script>
+var productImg=document.getElementById("productImg");
+var smallImg=document.getElementByClassName("small-img");
+SmallImg[0].onclick= function(){
+productImg.src= SmallImg[0].src;
+}
+SmallImg[1].onclick= function(){
+productImg.src= SmallImg[1].src;
+}
+SmallImg[2].onclick= function(){
+productImg.src= SmallImg[2].src;
+}
+</body>
+</html>
